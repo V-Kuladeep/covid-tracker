@@ -1,0 +1,51 @@
+#container{
+    background-color:rgb(206, 195, 195);
+   }
+   #container article{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   }
+   #container article div{
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+   }
+   
+   #heading{
+    background-color: turquoise;
+    height: 40px;
+    text-align: center;
+   }
+   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    }
+    h2{
+    color:black;
+    font-size: 40px;
+    }
+    #details{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: 400px;
+    
+    }
+    #btn{
+    width: 90px;
+    height: 30px;
+    background: royalblue;
+    color: black;
+    }
